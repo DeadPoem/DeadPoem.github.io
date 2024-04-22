@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>作品展示</title>
+		<link href="../css/head.css" rel="stylesheet"/>
+		<style type="text/css">
+			.box{
+				width: 1200px;
+				height: 1050px;
+				background-color: #FFFFFF;
+				font-size: 14px; 
+				font-family: "微软雅黑";
+				position: relative;
+			}
+			.box1, .box2{
+				width: 1000px;
+				height: 150px;
+				margin: auto;
+			}
+			.box2{
+				height: 800px;	
+			}
+			.img1,.img2{
+				width: 450px;
+				height: 280px;
+				overflow: hidden;
+				margin-top: 50px;
+				border-radius: 15px;
+				box-shadow: 10px 10px 5px #ebe8e1;
+			}
+			.img1:hover{
+				box-shadow: 10px 10px 5px #ff8726;
+
+			}
+			.img2:hover{
+				box-shadow: 10px 10px 5px #ff8726;
+
+			}
+			.img1 img{
+				width: 100%;	
+			}
+			.img2 img{
+				width: 100%;
+			}
+			.img1{
+				float: left;
+			}
+			.img2{
+				float: right;
+			}
+			.h2{
+				padding: 30px 0px;
+				text-align: center;
+			}
+			.p1{
+				/* font-size: 20px; */
+				padding: 0px 40px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="top_head">
+				<h2>杨耀明 | 个人网站</h2>
+			</div>
+			<!-- 导航栏 -->
+			<div class="top_nav">
+				<ul>
+					<li id="li_1"><a href="../index.html">网站首页</a></li>
+					<li><a href="AboutMe.html" >个人档案</a>
+						<!-- <ul id="ul_1">
+							<li><a href="Education.html">教育背景</a></li>
+							<li><a href="Experience.html">奖项荣誉</a></li>
+						</ul> -->
+					</li>
+					<li><a href="ShowCase.html"  style="color: #FF8726;">我的作品</a></li>
+					<li><a href="Photo.html">个人相册</a></li>
+					<!-- <li><a href="Objective.html">求职意向</a></li> -->
+					<!-- <li><a href="Contact.html">联系方式</a></li> -->
+				</ul>
+			</div>
+			<div id = top_nav1></div>
+			
+			<!-- 作品展示 -->
+			<div class="box">
+				<div class="box1">
+					<h2 class="h2">我的作品</h2>
+					<p class="p1">
+						以下四个展示作品选自我的参赛作品和个人作品, 是我制作的相对完善的项目, 或许这些作品任然存在许多不足之处, 但也代表着我对
+						嵌入式开发和电子设计的热爱, 不足之处还请指教.  (<em>点击图片可跳转至链接网页<em>, 更多项目展示请在相册中查看)
+					</p>
+				</div>
+				
+				<!-- 图片展示 -->
+				<div class="box2">
+					<div class="box2_1">
+						<a href="https://gitee.com/dead-poem/intelligent-logistics-chassis">
+							<div class="img1">
+								<img src="../img/project_pic/智能物流机器人.jpg" />
+							</div>
+						</a>
+
+						<a href="https://www.bilibili.com/video/BV1si4y1C7YB/?spm_id_from=333.999.0.0&vd_source=6c6ddc65aa9a516f6055f95eb2779c53">
+							<div class="img2">
+								<img src="../img/project_pic/越野车模.jpg" />
+							</div>
+						</a>
+					</div>
+					<div class="box2_1">
+						<a href="https://gitee.com/dead-poem/usb-meter-pro">
+							<div class="img1">
+								<img src="../img/project_pic/usb_meter.jpg" />
+							</div>
+						</a>
+
+						<a href="https://gitee.com/dead-poem/foc-stm32-f103-cbt6">
+							<div class="img2">
+								<img src="../img/project_pic/无刷驱动'.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--页脚-->
+			<footer><center>西南石油大学 2021级自动化 杨耀明</center></footer>
+		</div>
+	</body>
+</html>

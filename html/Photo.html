@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人相册</title>
+		<link href="../css/head.css" rel="stylesheet"/>
+		<style type="text/css">
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+        
+        .photo-item {
+            margin-bottom: 1rem;
+            max-width: calc(25% - 1rem);
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .photo-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            transition: transform .2s ease-in-out;
+        }
+        
+        .photo-item img:hover {
+            transform: scale(1.05);
+        }	
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="top_head">
+				<h2>杨耀明 | 个人网站</h2>
+			</div>
+			<!-- 导航栏 -->
+			<div class="top_nav">
+				<ul>
+					<li id="li_1"><a href="../index.html">网站首页</a></li>
+					<li><a href="AboutMe.html" >个人档案</a>
+						<!-- <ul id="ul_1">
+							<li><a href="Education.html">教育背景</a></li>
+							<li><a href="Experience.html">奖项荣誉</a></li>
+						</ul> -->
+					</li>
+					<li><a href="ShowCase.html">我的作品</a></li>
+					<li><a href="Photo.html" style="color: #FF8726;">个人相册</a></li>
+					<!-- <li><a href="Objective.html">求职意向</a></li> -->
+					<!-- <li><a href="Contact.html">联系方式</a></li> -->
+				</ul>
+			</div>
+			<div id = top_nav1></div>
+			
+			<!-- 个人相册 -->
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/证书/越野一等奖.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/智能车二等奖.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/电流表三等奖.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/机器狗训练营.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/证书/智能物流二等奖.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/起重机.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/垃圾分类.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/证书/电赛三等奖.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/项目作品/智能物流.png" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/usbmeter.png" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/机器狗.png" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/家电功率检测.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/项目作品/智能物流电源.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/dev_board.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/抬手检测.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/温控led.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/项目作品/校园卡片.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/智能车电机驱动.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/超声波探测.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/项目作品/无刷控制.png" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/洗衣机模拟.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/项目作品/跟随小车.jpg" alt="图片1">
+				</div>
+			</div>
+
+			<div class="photo-gallery">
+				<!-- 图片项循环 -->
+				<div class="photo-item">
+					<img src="../img/normal_pic/志愿服务.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/normal_pic/智能物流比赛合照.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/normal_pic/越野比赛合照.jpg" alt="图片1">
+				</div>
+				<div class="photo-item">
+					<img src="../img/normal_pic/调试.jpg" alt="图片1">
+				</div>
+			</div>
+			
+			
+			<!--页脚-->
+			<footer><center>西南石油大学 2021级自动化 杨耀明</center></footer>
+		</div>
+	</body>
+</html>
